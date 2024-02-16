@@ -1,10 +1,7 @@
-scikit-learn
-numpy
-matplotlib
-opencv-python
-pandas
-scipy
-tensorflow
-uvicorn[standard]
-fastapi
-python-multipart
+pip install -r requirements.txt
+
+pip install pipenv
+pipenv install -r requirements.txt
+pipenv shell
+
+uvicorn main:app --reload
