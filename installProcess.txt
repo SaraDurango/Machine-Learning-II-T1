@@ -1,0 +1,7 @@
+pip install -r packages.txt
+
+pip install pipenv
+pipenv install -r packages.txt
+pipenv shell
+
+uvicorn main:app --reload
